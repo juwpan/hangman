@@ -30,7 +30,7 @@ class ConsoleInterface
     if @game.won?
       puts "Поздравляем, вы выиграли!"
     elsif @game.lost?
-      puts "Вы проиграли, загаданное слово: #{@game.word}"
+      puts "Вы проиграли, загаданное слово: #{@game.word.colorize(:green)}"
     end
   end
 

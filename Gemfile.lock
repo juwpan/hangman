@@ -4,10 +4,11 @@ GEM
     colorize (0.8.1)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
   colorize
 
 BUNDLED WITH
-   2.3.11
+   2.3.7
